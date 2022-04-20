@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2"
+    Version="1.0.0.0"
+    Uri="http://mywebservice.azurewebsites.net/appset.appinstaller" >
+
+    <MainBundle
+        Name="38062AvishaiDernis.DiscordUWP"
+        Publisher="CN=43D24869-0557-46C9-8B30-13C6ACFDB86B"
+        Version="99.0.0.0"
+        Uri="https://github.com/UWPCommunity/Quarrel/archive/refs/tags/alpha-v1.20220420.18/Quarrel_99.0.0.0_x86_x64_ARM_ARM64_bundle_Alpha.msixupload" />
+
+    <UpdateURIs>
+        <UpdateURI>https://uwpcommunity.github.io/QuarrelAlpha/QuarrelAlpha.appinstaller</UpdateURI>
+    </UpdateURIs>
+
+    <UpdateSettings>
+        <OnLaunch HoursBetweenUpdateChecks="0"/>   
+    </UpdateSettings>
+
+</AppInstaller>
